@@ -26,7 +26,15 @@ input_shape = model.input_shape[1:3]  # Input shape of the model
 # Define Streamlit app
 st.title("Skin Condition Detector")
 st.write("Upload an image of a skin lesion to get the prediction:")
-st.write(labels)
+st.write("Detect all these labels)
+st.write("Melanocytic Nevi (nv)")
+st.write("Dermatofibroma (df)")
+st.write("Vascular Lesions (vasc)")
+st.write("Basal Cell Carcinoma (bcc)")
+st.write("Actinic Keratoses and Intraepithelial Carcinoma (akiec)")
+
+
+
 # Upload an image file
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
