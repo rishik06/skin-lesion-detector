@@ -7,9 +7,10 @@ import matplotlib.pyplot as plt
 import gdown
 import os 
 # Labels for the skin conditions
-labels = [ 'Benign Keratosis-like Lesions (bkl)','Melanocytic Nevi (nv)', 
-          'Dermatofibroma (df)', 'melanoma (mel), 'Vascular Lesions (vasc)', 
+labels = [ 'Benign Keratosis-like Lesions (bkl)', 'Melanocytic Nevi (nv)', 
+          'Dermatofibroma (df)', 'Melanoma (mel)', 'Vascular Lesions (vasc)', 
           'Basal Cell Carcinoma (bcc)', 'Actinic Keratoses and Intraepithelial Carcinoma (akiec)']
+
 
 # Load the trained model
 
